@@ -90,27 +90,27 @@ function spin_real_10() {
 }
 function choose_target_spin() {
     target_number_rand = Math.random();
-    if (target_number_rand <= 0.325) {
+    if (target_number_rand <= 0.3) {
         target_number = 11;
         spin_11();
     }
-    else if (target_number_rand > 0.325 && target_number_rand <= 0.75) {
+    else if (target_number_rand > 0.3 && target_number_rand <= 0.60) {
         target_number = 12;
         spin_12();
     }
-    else if (target_number_rand > 0.75 && target_number_rand <= 0.83) {
+    else if (target_number_rand > 0.60 && target_number_rand <= 0.70) {
         target_number = 21;
         spin_21();
     }
-    else if (target_number_rand > 0.83 && target_number_rand <= 0.93) {
+    else if (target_number_rand > 0.70 && target_number_rand <= 0.80) {
         target_number = 22;
         spin_22();
     }
-    else if (target_number_rand > 0.93 && target_number_rand <= 0.965) {
+    else if (target_number_rand > 0.80 && target_number_rand <= 0.90) {
         target_number = 31;
         spin_31();
     }
-    else if (target_number_rand > 0.965 && target_number_rand <= 0.9999) {
+    else if (target_number_rand > 0.90 && target_number_rand <= 0.9999) {
         target_number = 32;
         spin_32();
     }
